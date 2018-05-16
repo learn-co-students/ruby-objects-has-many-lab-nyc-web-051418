@@ -9,5 +9,13 @@ class Song
       @artist = artist
     end
 
+    def artist_name
 
+      if @artist
+        @artist.name
+      else
+        nil
+      end
+
+    end
 end
